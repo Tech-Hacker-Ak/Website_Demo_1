@@ -1,0 +1,96 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: ubuntu sans-serif;
+}
+.container{
+  display: flex;
+  background: black;
+  color: white;
+}
+
+.box1{
+  width: 50vw;
+ background: #4D84FF;
+ border-top: 10px solid #130000;
+ border-radius: 0px 90px / 90px;
+padding: 4px;
+padding-bottom: 12%;
+}
+.box1 img{
+  width: 95%;
+  margin-top: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 100%;
+  border: 2px solid black;
+  
+  
+}
+ .box1 h2{
+   text-align: center;
+   font-size: 5vw;
+   text-decoration: underline;
+   padding-bottom: 3px;
+   
+ }
+ .box1 p{
+   font-size: 3.5vw;
+   padding:3px;
+ }
+ .box1 h3{
+   font-size: 6vw;
+   color: #FAFF4D;
+ }
+ .akchange{
+   color: #FF0000;
+   font-size: 5.1vw;
+   font-weight: bold;
+   text-transform: uppercase;
+ }
+
+.box2{
+   width: 50vw;
+   padding-top: 3%;
+ }
+ .box2 img{
+   height: 17vw;
+   position: relative;
+   
+ }
+ .box2 h2{
+   font-size: 6vw;
+   text-align: center;
+   background: #4D84FF;
+   padding: 5px 3px;
+ }
+.box2 p{
+  font-size: 4vw;
+  padding: 4% 0% 4% 4%;
+}
+.demo-form{
+  font-size: 5vw;
+  text-align: center;
+  background: black;
+  color:white;
+}
+.inputdec{
+  font-size: 6vw;
+  width: 65vw;
+  line-height: 1.5;
+  border: 4px solid black;
+  border-radius: 10px;
+}
+#gender{
+  width: 66vw;
+  font-size: 7vw;
+  border-radius: 10px;
+}
+.submitbtn{
+  background: black;
+  font-size: 8vw;
+  color:white;
+  border: 3px solid white;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
